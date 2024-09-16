@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family:cursive;
+}
+h3{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+hr{
+    position: relative;
+    top: 380px;
+    background-color: rgba(0, 0, 0, 0.444);
+    width: 97%;
+    height: 3px;
+    margin-left: 30px;
+}
+.container{
+    /* position: relative;
+    z-index: 1; */
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+/* .div1 img{
+    transition: all;
+    transition-duration: 4s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+} */
+.div1,.div2,.div3,.div4{
+    position: relative;
+    z-index: 1;
+    /* bottom: 0x; */
+    margin-left: 20px;
+    width: 200px;
+    text-align: center;
+}
+.subdiv{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.div1:hover img{
+    
+    content: url("./biscuit.jpeg");
+    /* bottom: 70px; */
+    position: relative;
+    top: -70px;
+}
+.div1:hover{
+    
+    p{
+        margin-left: 30px;
+        color: rgba(0, 0, 255, 0.403);
+    }
+    button:hover{
+        background-color: fuchsia;
+    }
+}
+p{
+    margin-left: 30px;
+    color: blue;
+}
+.container1{
+    position: relative;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15%;
+}
+.container2{
+    position: relative;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 35%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>infermentum</h1>
+        <nav>
+            <a href="">LEAVENED</a>&nbsp;&nbsp;<a href="">COOKIES</a>&nbsp;&nbsp;<a href="">WHO WE ARE</a>
+        </nav>
+    </header>
+    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+    <hr>
+    <div class="container">
+        <div class="div1">
+            <img src="./card.jpeg" alt="">
+            <p>Lorem ipsumdolor sit</p>
+            <div class="subdiv two">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+        <div class="div1 div2">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit </p>
+            <div class="subdiv four">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+        <div class="div1 div3">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit</p>
+            <div class="subdiv six">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+        <div class="div1 div4">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit </p>
+            <div class="subdiv eight">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+    </div>
+    <hr id="hr1">
+    <div class="container1">
+        <div class="div1  div2">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit </p>
+            <div class="subdiv four">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+        <div class="div1 div3">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit</p>
+            <div class="subdiv six">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+        <div class="div1 div4">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit </p>
+            <div class="subdiv eight">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container2">
+        <div class="div1 div3">
+                <img src="./Cover.jpeg" alt="">
+                <p>Lorem ipsumdolor sit</p>
+            <div class="subdiv six">
+                <span>150$</span>
+                <button>add to cart</button>
+            </div>
+        </div>
+    </div><br><br>
+
+</body>
+</html>
